@@ -1,0 +1,2 @@
+# huawei_configurator_pyqt
+huawei_configurator_pyqt
