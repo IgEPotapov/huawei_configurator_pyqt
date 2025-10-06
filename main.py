@@ -6,7 +6,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(351, 202)
-        MainWindow.setContextMenuPolicy(QtCore.Qt)
+        MainWindow.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("C:/Python Projects/HellowWorld/huawei.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
